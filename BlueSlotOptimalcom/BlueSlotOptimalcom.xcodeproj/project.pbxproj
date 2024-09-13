@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FE68B32E2C2C1B57CABB4A /* Pods_BlueSlotOptimalcom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4771416331908F51B3505045 /* Pods_BlueSlotOptimalcom.framework */; };
+		E9F5A4BB2C941259007C601A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BA2C941259007C601A /* AppDelegate.swift */; };
+		E9F5A4BD2C941259007C601A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BC2C941259007C601A /* SceneDelegate.swift */; };
+		E9F5A4BF2C941259007C601A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BE2C941259007C601A /* ViewController.swift */; };
+		E9F5A4C22C941259007C601A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F5A4C02C941259007C601A /* Main.storyboard */; };
+		E9F5A4C42C94125B007C601A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F5A4C32C94125B007C601A /* Assets.xcassets */; };
+		E9F5A4C72C94125B007C601A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F5A4C52C94125B007C601A /* LaunchScreen.storyboard */; };
+		E9F5A4D22C94125C007C601A /* BlueSlotOptimalcomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4D12C94125C007C601A /* BlueSlotOptimalcomTests.swift */; };
+		E9F5A4DC2C94125C007C601A /* BlueSlotOptimalcomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4DB2C94125C007C601A /* BlueSlotOptimalcomUITests.swift */; };
+		E9F5A4DE2C94125C007C601A /* BlueSlotOptimalcomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4DD2C94125C007C601A /* BlueSlotOptimalcomUITestsLaunchTests.swift */; };
+		E9F5A4EB2C941347007C601A /* BSOSlotGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4EA2C941347007C601A /* BSOSlotGame.swift */; };
+		E9F5A4ED2C94136D007C601A /* BSOLockandKeySlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4EC2C94136D007C601A /* BSOLockandKeySlot.swift */; };
+		E9F5A4EF2C941388007C601A /* BSOSplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4EE2C941388007C601A /* BSOSplashVC.swift */; };
+		E9F5A4F12C94139F007C601A /* BSOHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4F02C94139F007C601A /* BSOHomeVC.swift */; };
+		E9F5A4F32C9413C1007C601A /* BSOAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4F22C9413C1007C601A /* BSOAboutVC.swift */; };
+		E9F5A4F52C9413D9007C601A /* BSOFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4F42C9413D9007C601A /* BSOFeedbackVC.swift */; };
+		E9F5A4F72C9413EF007C601A /* BSOSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4F62C9413EE007C601A /* BSOSettingVC.swift */; };
+		E9F5A4F92C9415DA007C601A /* BSOExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4F82C9415DA007C601A /* BSOExt.swift */; };
+		E9F5A4FB2C9415FD007C601A /* spin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9F5A4FA2C9415FD007C601A /* spin.wav */; };
+		E9F5A4FD2C9417FE007C601A /* BSONavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4FC2C9417FE007C601A /* BSONavigationVC.swift */; };
+		E9F5A5012C941884007C601A /* BSOPrivacyWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A5002C941884007C601A /* BSOPrivacyWebVC.m */; };
+		E9F5A5042C941905007C601A /* BSODBTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A5032C941905007C601A /* BSODBTypeManager.m */; };
+		E9F5A50A2C94194C007C601A /* NSObject+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A5092C94194C007C601A /* NSObject+Array.m */; };
+		E9F5A50D2C941970007C601A /* UIViewController+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A50C2C941970007C601A /* UIViewController+Array.m */; };
+		E9F5A5102C941AB4007C601A /* BSOBlueNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A50F2C941AB4007C601A /* BSOBlueNetManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F5A4CE2C94125C007C601A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F5A4AF2C941259007C601A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F5A4B62C941259007C601A;
+			remoteInfo = BlueSlotOptimalcom;
+		};
+		E9F5A4D82C94125C007C601A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F5A4AF2C941259007C601A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F5A4B62C941259007C601A;
+			remoteInfo = BlueSlotOptimalcom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB322061AE44FB30993CCDA /* Pods-BlueSlotOptimalcom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSlotOptimalcom.release.xcconfig"; path = "Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom.release.xcconfig"; sourceTree = "<group>"; };
+		4771416331908F51B3505045 /* Pods_BlueSlotOptimalcom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueSlotOptimalcom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C08E67C974F42951B52689 /* Pods-BlueSlotOptimalcom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSlotOptimalcom.debug.xcconfig"; path = "Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom.debug.xcconfig"; sourceTree = "<group>"; };
+		E9F5A4B72C941259007C601A /* BlueSlotOptimalcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSlotOptimalcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5A4BA2C941259007C601A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9F5A4BC2C941259007C601A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9F5A4BE2C941259007C601A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9F5A4C12C941259007C601A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F5A4C32C94125B007C601A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F5A4C62C94125B007C601A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F5A4C82C94125B007C601A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F5A4CD2C94125C007C601A /* BlueSlotOptimalcomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSlotOptimalcomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5A4D12C94125C007C601A /* BlueSlotOptimalcomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSlotOptimalcomTests.swift; sourceTree = "<group>"; };
+		E9F5A4D72C94125C007C601A /* BlueSlotOptimalcomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSlotOptimalcomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5A4DB2C94125C007C601A /* BlueSlotOptimalcomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSlotOptimalcomUITests.swift; sourceTree = "<group>"; };
+		E9F5A4DD2C94125C007C601A /* BlueSlotOptimalcomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSlotOptimalcomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9F5A4EA2C941347007C601A /* BSOSlotGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOSlotGame.swift; sourceTree = "<group>"; };
+		E9F5A4EC2C94136D007C601A /* BSOLockandKeySlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOLockandKeySlot.swift; sourceTree = "<group>"; };
+		E9F5A4EE2C941388007C601A /* BSOSplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOSplashVC.swift; sourceTree = "<group>"; };
+		E9F5A4F02C94139F007C601A /* BSOHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOHomeVC.swift; sourceTree = "<group>"; };
+		E9F5A4F22C9413C1007C601A /* BSOAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOAboutVC.swift; sourceTree = "<group>"; };
+		E9F5A4F42C9413D9007C601A /* BSOFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOFeedbackVC.swift; sourceTree = "<group>"; };
+		E9F5A4F62C9413EE007C601A /* BSOSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOSettingVC.swift; sourceTree = "<group>"; };
+		E9F5A4F82C9415DA007C601A /* BSOExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOExt.swift; sourceTree = "<group>"; };
+		E9F5A4FA2C9415FD007C601A /* spin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spin.wav; sourceTree = "<group>"; };
+		E9F5A4FC2C9417FE007C601A /* BSONavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSONavigationVC.swift; sourceTree = "<group>"; };
+		E9F5A4FE2C941883007C601A /* BlueSlotOptimalcom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueSlotOptimalcom-Bridging-Header.h"; sourceTree = "<group>"; };
+		E9F5A4FF2C941884007C601A /* BSOPrivacyWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOPrivacyWebVC.h; sourceTree = "<group>"; };
+		E9F5A5002C941884007C601A /* BSOPrivacyWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOPrivacyWebVC.m; sourceTree = "<group>"; };
+		E9F5A5022C941905007C601A /* BSODBTypeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSODBTypeManager.h; sourceTree = "<group>"; };
+		E9F5A5032C941905007C601A /* BSODBTypeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSODBTypeManager.m; sourceTree = "<group>"; };
+		E9F5A5082C94194C007C601A /* NSObject+Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Array.h"; sourceTree = "<group>"; };
+		E9F5A5092C94194C007C601A /* NSObject+Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Array.m"; sourceTree = "<group>"; };
+		E9F5A50B2C941970007C601A /* UIViewController+Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Array.h"; sourceTree = "<group>"; };
+		E9F5A50C2C941970007C601A /* UIViewController+Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Array.m"; sourceTree = "<group>"; };
+		E9F5A50E2C941AB4007C601A /* BSOBlueNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOBlueNetManager.h; sourceTree = "<group>"; };
+		E9F5A50F2C941AB4007C601A /* BSOBlueNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOBlueNetManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F5A4B42C941259007C601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FE68B32E2C2C1B57CABB4A /* Pods_BlueSlotOptimalcom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5A4CA2C94125C007C601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5A4D42C94125C007C601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70EB1D8E82FF637EDDB2311D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4771416331908F51B3505045 /* Pods_BlueSlotOptimalcom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3D892359EEBFAD0AD7A1BB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0C08E67C974F42951B52689 /* Pods-BlueSlotOptimalcom.debug.xcconfig */,
+				1DB322061AE44FB30993CCDA /* Pods-BlueSlotOptimalcom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9F5A4AE2C941259007C601A = {
+			isa = PBXGroup;
+			children = (
+				E9F5A4B92C941259007C601A /* BlueSlotOptimalcom */,
+				E9F5A4D02C94125C007C601A /* BlueSlotOptimalcomTests */,
+				E9F5A4DA2C94125C007C601A /* BlueSlotOptimalcomUITests */,
+				E9F5A4B82C941259007C601A /* Products */,
+				E3D892359EEBFAD0AD7A1BB1 /* Pods */,
+				70EB1D8E82FF637EDDB2311D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F5A4B82C941259007C601A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5A4B72C941259007C601A /* BlueSlotOptimalcom.app */,
+				E9F5A4CD2C94125C007C601A /* BlueSlotOptimalcomTests.xctest */,
+				E9F5A4D72C94125C007C601A /* BlueSlotOptimalcomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F5A4B92C941259007C601A /* BlueSlotOptimalcom */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5A4FA2C9415FD007C601A /* spin.wav */,
+				E9F5A4BA2C941259007C601A /* AppDelegate.swift */,
+				E9F5A4BC2C941259007C601A /* SceneDelegate.swift */,
+				E9F5A4BE2C941259007C601A /* ViewController.swift */,
+				E9F5A4EA2C941347007C601A /* BSOSlotGame.swift */,
+				E9F5A4EC2C94136D007C601A /* BSOLockandKeySlot.swift */,
+				E9F5A4EE2C941388007C601A /* BSOSplashVC.swift */,
+				E9F5A4F02C94139F007C601A /* BSOHomeVC.swift */,
+				E9F5A4F22C9413C1007C601A /* BSOAboutVC.swift */,
+				E9F5A4F42C9413D9007C601A /* BSOFeedbackVC.swift */,
+				E9F5A4F62C9413EE007C601A /* BSOSettingVC.swift */,
+				E9F5A4F82C9415DA007C601A /* BSOExt.swift */,
+				E9F5A4FC2C9417FE007C601A /* BSONavigationVC.swift */,
+				E9F5A4FF2C941884007C601A /* BSOPrivacyWebVC.h */,
+				E9F5A5002C941884007C601A /* BSOPrivacyWebVC.m */,
+				E9F5A5022C941905007C601A /* BSODBTypeManager.h */,
+				E9F5A5032C941905007C601A /* BSODBTypeManager.m */,
+				E9F5A5082C94194C007C601A /* NSObject+Array.h */,
+				E9F5A5092C94194C007C601A /* NSObject+Array.m */,
+				E9F5A50B2C941970007C601A /* UIViewController+Array.h */,
+				E9F5A50C2C941970007C601A /* UIViewController+Array.m */,
+				E9F5A50E2C941AB4007C601A /* BSOBlueNetManager.h */,
+				E9F5A50F2C941AB4007C601A /* BSOBlueNetManager.m */,
+				E9F5A4C02C941259007C601A /* Main.storyboard */,
+				E9F5A4C32C94125B007C601A /* Assets.xcassets */,
+				E9F5A4C52C94125B007C601A /* LaunchScreen.storyboard */,
+				E9F5A4C82C94125B007C601A /* Info.plist */,
+				E9F5A4FE2C941883007C601A /* BlueSlotOptimalcom-Bridging-Header.h */,
+			);
+			path = BlueSlotOptimalcom;
+			sourceTree = "<group>";
+		};
+		E9F5A4D02C94125C007C601A /* BlueSlotOptimalcomTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5A4D12C94125C007C601A /* BlueSlotOptimalcomTests.swift */,
+			);
+			path = BlueSlotOptimalcomTests;
+			sourceTree = "<group>";
+		};
+		E9F5A4DA2C94125C007C601A /* BlueSlotOptimalcomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5A4DB2C94125C007C601A /* BlueSlotOptimalcomUITests.swift */,
+				E9F5A4DD2C94125C007C601A /* BlueSlotOptimalcomUITestsLaunchTests.swift */,
+			);
+			path = BlueSlotOptimalcomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F5A4B62C941259007C601A /* BlueSlotOptimalcom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5A4E12C94125C007C601A /* Build configuration list for PBXNativeTarget "BlueSlotOptimalcom" */;
+			buildPhases = (
+				43A8FD1F4E24A5C3FF108E31 /* [CP] Check Pods Manifest.lock */,
+				E9F5A4B32C941259007C601A /* Sources */,
+				E9F5A4B42C941259007C601A /* Frameworks */,
+				E9F5A4B52C941259007C601A /* Resources */,
+				CF20F7EE7835289DECB39090 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSlotOptimalcom;
+			productName = BlueSlotOptimalcom;
+			productReference = E9F5A4B72C941259007C601A /* BlueSlotOptimalcom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F5A4CC2C94125C007C601A /* BlueSlotOptimalcomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5A4E42C94125C007C601A /* Build configuration list for PBXNativeTarget "BlueSlotOptimalcomTests" */;
+			buildPhases = (
+				E9F5A4C92C94125C007C601A /* Sources */,
+				E9F5A4CA2C94125C007C601A /* Frameworks */,
+				E9F5A4CB2C94125C007C601A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F5A4CF2C94125C007C601A /* PBXTargetDependency */,
+			);
+			name = BlueSlotOptimalcomTests;
+			productName = BlueSlotOptimalcomTests;
+			productReference = E9F5A4CD2C94125C007C601A /* BlueSlotOptimalcomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F5A4D62C94125C007C601A /* BlueSlotOptimalcomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5A4E72C94125C007C601A /* Build configuration list for PBXNativeTarget "BlueSlotOptimalcomUITests" */;
+			buildPhases = (
+				E9F5A4D32C94125C007C601A /* Sources */,
+				E9F5A4D42C94125C007C601A /* Frameworks */,
+				E9F5A4D52C94125C007C601A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F5A4D92C94125C007C601A /* PBXTargetDependency */,
+			);
+			name = BlueSlotOptimalcomUITests;
+			productName = BlueSlotOptimalcomUITests;
+			productReference = E9F5A4D72C94125C007C601A /* BlueSlotOptimalcomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F5A4AF2C941259007C601A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E9F5A4B62C941259007C601A = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E9F5A4CC2C94125C007C601A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9F5A4B62C941259007C601A;
+					};
+					E9F5A4D62C94125C007C601A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9F5A4B62C941259007C601A;
+					};
+				};
+			};
+			buildConfigurationList = E9F5A4B22C941259007C601A /* Build configuration list for PBXProject "BlueSlotOptimalcom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F5A4AE2C941259007C601A;
+			productRefGroup = E9F5A4B82C941259007C601A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F5A4B62C941259007C601A /* BlueSlotOptimalcom */,
+				E9F5A4CC2C94125C007C601A /* BlueSlotOptimalcomTests */,
+				E9F5A4D62C94125C007C601A /* BlueSlotOptimalcomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F5A4B52C941259007C601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5A4C72C94125B007C601A /* LaunchScreen.storyboard in Resources */,
+				E9F5A4C42C94125B007C601A /* Assets.xcassets in Resources */,
+				E9F5A4FB2C9415FD007C601A /* spin.wav in Resources */,
+				E9F5A4C22C941259007C601A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5A4CB2C94125C007C601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5A4D52C94125C007C601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A8FD1F4E24A5C3FF108E31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueSlotOptimalcom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF20F7EE7835289DECB39090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F5A4B32C941259007C601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5A4F52C9413D9007C601A /* BSOFeedbackVC.swift in Sources */,
+				E9F5A4FD2C9417FE007C601A /* BSONavigationVC.swift in Sources */,
+				E9F5A4EB2C941347007C601A /* BSOSlotGame.swift in Sources */,
+				E9F5A5012C941884007C601A /* BSOPrivacyWebVC.m in Sources */,
+				E9F5A50A2C94194C007C601A /* NSObject+Array.m in Sources */,
+				E9F5A4BF2C941259007C601A /* ViewController.swift in Sources */,
+				E9F5A4F92C9415DA007C601A /* BSOExt.swift in Sources */,
+				E9F5A4BB2C941259007C601A /* AppDelegate.swift in Sources */,
+				E9F5A4F32C9413C1007C601A /* BSOAboutVC.swift in Sources */,
+				E9F5A4BD2C941259007C601A /* SceneDelegate.swift in Sources */,
+				E9F5A50D2C941970007C601A /* UIViewController+Array.m in Sources */,
+				E9F5A4EF2C941388007C601A /* BSOSplashVC.swift in Sources */,
+				E9F5A5042C941905007C601A /* BSODBTypeManager.m in Sources */,
+				E9F5A4F12C94139F007C601A /* BSOHomeVC.swift in Sources */,
+				E9F5A5102C941AB4007C601A /* BSOBlueNetManager.m in Sources */,
+				E9F5A4F72C9413EF007C601A /* BSOSettingVC.swift in Sources */,
+				E9F5A4ED2C94136D007C601A /* BSOLockandKeySlot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5A4C92C94125C007C601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5A4D22C94125C007C601A /* BlueSlotOptimalcomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5A4D32C94125C007C601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5A4DC2C94125C007C601A /* BlueSlotOptimalcomUITests.swift in Sources */,
+				E9F5A4DE2C94125C007C601A /* BlueSlotOptimalcomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F5A4CF2C94125C007C601A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F5A4B62C941259007C601A /* BlueSlotOptimalcom */;
+			targetProxy = E9F5A4CE2C94125C007C601A /* PBXContainerItemProxy */;
+		};
+		E9F5A4D92C94125C007C601A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F5A4B62C941259007C601A /* BlueSlotOptimalcom */;
+			targetProxy = E9F5A4D82C94125C007C601A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9F5A4C02C941259007C601A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F5A4C12C941259007C601A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F5A4C52C94125B007C601A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F5A4C62C94125B007C601A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F5A4DF2C94125C007C601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F5A4E02C94125C007C601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F5A4E22C94125C007C601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C08E67C974F42951B52689 /* Pods-BlueSlotOptimalcom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueSlotOptimalcom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BlueSlot Optimalcom";
+				INFOPLIST_KEY_NSCameraUsageDescription = "BlueSlot Optimalcom requires access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BlueSlot Optimalcom requires access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BlueSlot Optimalcom Need access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "BlueSlot Optimalcom needs to obtain your device information for analysis and to bring you a unique gaming experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blue.BlueSlotOptimalcom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueSlotOptimalcom/BlueSlotOptimalcom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9F5A4E32C94125C007C601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB322061AE44FB30993CCDA /* Pods-BlueSlotOptimalcom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueSlotOptimalcom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BlueSlot Optimalcom";
+				INFOPLIST_KEY_NSCameraUsageDescription = "BlueSlot Optimalcom requires access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BlueSlot Optimalcom requires access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BlueSlot Optimalcom Need access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "BlueSlot Optimalcom needs to obtain your device information for analysis and to bring you a unique gaming experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blue.BlueSlotOptimalcom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueSlotOptimalcom/BlueSlotOptimalcom-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9F5A4E52C94125C007C601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blue.BlueSlotOptimalcomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueSlotOptimalcom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueSlotOptimalcom";
+			};
+			name = Debug;
+		};
+		E9F5A4E62C94125C007C601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blue.BlueSlotOptimalcomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueSlotOptimalcom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueSlotOptimalcom";
+			};
+			name = Release;
+		};
+		E9F5A4E82C94125C007C601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blue.BlueSlotOptimalcomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueSlotOptimalcom;
+			};
+			name = Debug;
+		};
+		E9F5A4E92C94125C007C601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.blue.BlueSlotOptimalcomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueSlotOptimalcom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F5A4B22C941259007C601A /* Build configuration list for PBXProject "BlueSlotOptimalcom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5A4DF2C94125C007C601A /* Debug */,
+				E9F5A4E02C94125C007C601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5A4E12C94125C007C601A /* Build configuration list for PBXNativeTarget "BlueSlotOptimalcom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5A4E22C94125C007C601A /* Debug */,
+				E9F5A4E32C94125C007C601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5A4E42C94125C007C601A /* Build configuration list for PBXNativeTarget "BlueSlotOptimalcomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5A4E52C94125C007C601A /* Debug */,
+				E9F5A4E62C94125C007C601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5A4E72C94125C007C601A /* Build configuration list for PBXNativeTarget "BlueSlotOptimalcomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5A4E82C94125C007C601A /* Debug */,
+				E9F5A4E92C94125C007C601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F5A4AF2C941259007C601A /* Project object */;
+}
