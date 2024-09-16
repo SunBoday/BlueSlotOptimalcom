@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		46FE68B32E2C2C1B57CABB4A /* Pods_BlueSlotOptimalcom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4771416331908F51B3505045 /* Pods_BlueSlotOptimalcom.framework */; };
+		72799F252C97ECA600E9427F /* BSOPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F242C97ECA600E9427F /* BSOPrivacyVC.swift */; };
+		72799F272C97F7CC00E9427F /* BSOMathsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F262C97F7CC00E9427F /* BSOMathsVC.swift */; };
+		72799F292C97F7F100E9427F /* MathSlotGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F282C97F7F100E9427F /* MathSlotGameScene.swift */; };
+		72799F2B2C9809DC00E9427F /* BSOBounceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F2A2C9809DC00E9427F /* BSOBounceVC.swift */; };
+		72799F2D2C9809F900E9427F /* SimpleBounceSlotGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F2C2C9809F900E9427F /* SimpleBounceSlotGameScene.swift */; };
+		E91BF6A52C981ADC00735F8E /* BSOBlueNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF69C2C981ADB00735F8E /* BSOBlueNetManager.m */; };
+		E91BF6A62C981ADC00735F8E /* BSOPrivacyWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF69E2C981ADB00735F8E /* BSOPrivacyWebVC.m */; };
+		E91BF6A72C981ADC00735F8E /* NSObject+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF6A02C981ADB00735F8E /* NSObject+Array.m */; };
+		E91BF6A82C981ADC00735F8E /* BSODBTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF6A12C981ADB00735F8E /* BSODBTypeManager.m */; };
+		E91BF6A92C981ADC00735F8E /* UIViewController+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF6A42C981ADC00735F8E /* UIViewController+Array.m */; };
 		E9F5A4BB2C941259007C601A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BA2C941259007C601A /* AppDelegate.swift */; };
 		E9F5A4BD2C941259007C601A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BC2C941259007C601A /* SceneDelegate.swift */; };
 		E9F5A4BF2C941259007C601A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BE2C941259007C601A /* ViewController.swift */; };
@@ -27,11 +37,6 @@
 		E9F5A4F92C9415DA007C601A /* BSOExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4F82C9415DA007C601A /* BSOExt.swift */; };
 		E9F5A4FB2C9415FD007C601A /* spin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9F5A4FA2C9415FD007C601A /* spin.wav */; };
 		E9F5A4FD2C9417FE007C601A /* BSONavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4FC2C9417FE007C601A /* BSONavigationVC.swift */; };
-		E9F5A5012C941884007C601A /* BSOPrivacyWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A5002C941884007C601A /* BSOPrivacyWebVC.m */; };
-		E9F5A5042C941905007C601A /* BSODBTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A5032C941905007C601A /* BSODBTypeManager.m */; };
-		E9F5A50A2C94194C007C601A /* NSObject+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A5092C94194C007C601A /* NSObject+Array.m */; };
-		E9F5A50D2C941970007C601A /* UIViewController+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A50C2C941970007C601A /* UIViewController+Array.m */; };
-		E9F5A5102C941AB4007C601A /* BSOBlueNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A50F2C941AB4007C601A /* BSOBlueNetManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +59,22 @@
 /* Begin PBXFileReference section */
 		1DB322061AE44FB30993CCDA /* Pods-BlueSlotOptimalcom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSlotOptimalcom.release.xcconfig"; path = "Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom.release.xcconfig"; sourceTree = "<group>"; };
 		4771416331908F51B3505045 /* Pods_BlueSlotOptimalcom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueSlotOptimalcom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72799F242C97ECA600E9427F /* BSOPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOPrivacyVC.swift; sourceTree = "<group>"; };
+		72799F262C97F7CC00E9427F /* BSOMathsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOMathsVC.swift; sourceTree = "<group>"; };
+		72799F282C97F7F100E9427F /* MathSlotGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSlotGameScene.swift; sourceTree = "<group>"; };
+		72799F2A2C9809DC00E9427F /* BSOBounceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOBounceVC.swift; sourceTree = "<group>"; };
+		72799F2C2C9809F900E9427F /* SimpleBounceSlotGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBounceSlotGameScene.swift; sourceTree = "<group>"; };
 		B0C08E67C974F42951B52689 /* Pods-BlueSlotOptimalcom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSlotOptimalcom.debug.xcconfig"; path = "Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom.debug.xcconfig"; sourceTree = "<group>"; };
+		E91BF69B2C981ADB00735F8E /* BSOBlueNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOBlueNetManager.h; sourceTree = "<group>"; };
+		E91BF69C2C981ADB00735F8E /* BSOBlueNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOBlueNetManager.m; sourceTree = "<group>"; };
+		E91BF69D2C981ADB00735F8E /* BSOPrivacyWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOPrivacyWebVC.h; sourceTree = "<group>"; };
+		E91BF69E2C981ADB00735F8E /* BSOPrivacyWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOPrivacyWebVC.m; sourceTree = "<group>"; };
+		E91BF69F2C981ADB00735F8E /* UIViewController+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Array.h"; sourceTree = "<group>"; };
+		E91BF6A02C981ADB00735F8E /* NSObject+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Array.m"; sourceTree = "<group>"; };
+		E91BF6A12C981ADB00735F8E /* BSODBTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODBTypeManager.m; sourceTree = "<group>"; };
+		E91BF6A22C981ADC00735F8E /* NSObject+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Array.h"; sourceTree = "<group>"; };
+		E91BF6A32C981ADC00735F8E /* BSODBTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODBTypeManager.h; sourceTree = "<group>"; };
+		E91BF6A42C981ADC00735F8E /* UIViewController+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Array.m"; sourceTree = "<group>"; };
 		E9F5A4B72C941259007C601A /* BlueSlotOptimalcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSlotOptimalcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F5A4BA2C941259007C601A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F5A4BC2C941259007C601A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,16 +99,6 @@
 		E9F5A4FA2C9415FD007C601A /* spin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spin.wav; sourceTree = "<group>"; };
 		E9F5A4FC2C9417FE007C601A /* BSONavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSONavigationVC.swift; sourceTree = "<group>"; };
 		E9F5A4FE2C941883007C601A /* BlueSlotOptimalcom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueSlotOptimalcom-Bridging-Header.h"; sourceTree = "<group>"; };
-		E9F5A4FF2C941884007C601A /* BSOPrivacyWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOPrivacyWebVC.h; sourceTree = "<group>"; };
-		E9F5A5002C941884007C601A /* BSOPrivacyWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOPrivacyWebVC.m; sourceTree = "<group>"; };
-		E9F5A5022C941905007C601A /* BSODBTypeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSODBTypeManager.h; sourceTree = "<group>"; };
-		E9F5A5032C941905007C601A /* BSODBTypeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSODBTypeManager.m; sourceTree = "<group>"; };
-		E9F5A5082C94194C007C601A /* NSObject+Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Array.h"; sourceTree = "<group>"; };
-		E9F5A5092C94194C007C601A /* NSObject+Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Array.m"; sourceTree = "<group>"; };
-		E9F5A50B2C941970007C601A /* UIViewController+Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Array.h"; sourceTree = "<group>"; };
-		E9F5A50C2C941970007C601A /* UIViewController+Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Array.m"; sourceTree = "<group>"; };
-		E9F5A50E2C941AB4007C601A /* BSOBlueNetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSOBlueNetManager.h; sourceTree = "<group>"; };
-		E9F5A50F2C941AB4007C601A /* BSOBlueNetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSOBlueNetManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,20 +178,25 @@
 				E9F5A4EE2C941388007C601A /* BSOSplashVC.swift */,
 				E9F5A4F02C94139F007C601A /* BSOHomeVC.swift */,
 				E9F5A4F22C9413C1007C601A /* BSOAboutVC.swift */,
+				72799F242C97ECA600E9427F /* BSOPrivacyVC.swift */,
 				E9F5A4F42C9413D9007C601A /* BSOFeedbackVC.swift */,
 				E9F5A4F62C9413EE007C601A /* BSOSettingVC.swift */,
 				E9F5A4F82C9415DA007C601A /* BSOExt.swift */,
 				E9F5A4FC2C9417FE007C601A /* BSONavigationVC.swift */,
-				E9F5A4FF2C941884007C601A /* BSOPrivacyWebVC.h */,
-				E9F5A5002C941884007C601A /* BSOPrivacyWebVC.m */,
-				E9F5A5022C941905007C601A /* BSODBTypeManager.h */,
-				E9F5A5032C941905007C601A /* BSODBTypeManager.m */,
-				E9F5A5082C94194C007C601A /* NSObject+Array.h */,
-				E9F5A5092C94194C007C601A /* NSObject+Array.m */,
-				E9F5A50B2C941970007C601A /* UIViewController+Array.h */,
-				E9F5A50C2C941970007C601A /* UIViewController+Array.m */,
-				E9F5A50E2C941AB4007C601A /* BSOBlueNetManager.h */,
-				E9F5A50F2C941AB4007C601A /* BSOBlueNetManager.m */,
+				72799F262C97F7CC00E9427F /* BSOMathsVC.swift */,
+				72799F282C97F7F100E9427F /* MathSlotGameScene.swift */,
+				72799F2A2C9809DC00E9427F /* BSOBounceVC.swift */,
+				72799F2C2C9809F900E9427F /* SimpleBounceSlotGameScene.swift */,
+				E91BF69B2C981ADB00735F8E /* BSOBlueNetManager.h */,
+				E91BF69C2C981ADB00735F8E /* BSOBlueNetManager.m */,
+				E91BF6A32C981ADC00735F8E /* BSODBTypeManager.h */,
+				E91BF6A12C981ADB00735F8E /* BSODBTypeManager.m */,
+				E91BF69D2C981ADB00735F8E /* BSOPrivacyWebVC.h */,
+				E91BF69E2C981ADB00735F8E /* BSOPrivacyWebVC.m */,
+				E91BF6A22C981ADC00735F8E /* NSObject+Array.h */,
+				E91BF6A02C981ADB00735F8E /* NSObject+Array.m */,
+				E91BF69F2C981ADB00735F8E /* UIViewController+Array.h */,
+				E91BF6A42C981ADC00735F8E /* UIViewController+Array.m */,
 				E9F5A4C02C941259007C601A /* Main.storyboard */,
 				E9F5A4C32C94125B007C601A /* Assets.xcassets */,
 				E9F5A4C52C94125B007C601A /* LaunchScreen.storyboard */,
@@ -385,23 +400,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91BF6A62C981ADC00735F8E /* BSOPrivacyWebVC.m in Sources */,
 				E9F5A4F52C9413D9007C601A /* BSOFeedbackVC.swift in Sources */,
 				E9F5A4FD2C9417FE007C601A /* BSONavigationVC.swift in Sources */,
+				E91BF6A52C981ADC00735F8E /* BSOBlueNetManager.m in Sources */,
+				72799F292C97F7F100E9427F /* MathSlotGameScene.swift in Sources */,
 				E9F5A4EB2C941347007C601A /* BSOSlotGame.swift in Sources */,
-				E9F5A5012C941884007C601A /* BSOPrivacyWebVC.m in Sources */,
-				E9F5A50A2C94194C007C601A /* NSObject+Array.m in Sources */,
 				E9F5A4BF2C941259007C601A /* ViewController.swift in Sources */,
 				E9F5A4F92C9415DA007C601A /* BSOExt.swift in Sources */,
+				72799F272C97F7CC00E9427F /* BSOMathsVC.swift in Sources */,
+				E91BF6A72C981ADC00735F8E /* NSObject+Array.m in Sources */,
+				E91BF6A82C981ADC00735F8E /* BSODBTypeManager.m in Sources */,
+				72799F252C97ECA600E9427F /* BSOPrivacyVC.swift in Sources */,
 				E9F5A4BB2C941259007C601A /* AppDelegate.swift in Sources */,
 				E9F5A4F32C9413C1007C601A /* BSOAboutVC.swift in Sources */,
+				E91BF6A92C981ADC00735F8E /* UIViewController+Array.m in Sources */,
 				E9F5A4BD2C941259007C601A /* SceneDelegate.swift in Sources */,
-				E9F5A50D2C941970007C601A /* UIViewController+Array.m in Sources */,
 				E9F5A4EF2C941388007C601A /* BSOSplashVC.swift in Sources */,
-				E9F5A5042C941905007C601A /* BSODBTypeManager.m in Sources */,
 				E9F5A4F12C94139F007C601A /* BSOHomeVC.swift in Sources */,
-				E9F5A5102C941AB4007C601A /* BSOBlueNetManager.m in Sources */,
 				E9F5A4F72C9413EF007C601A /* BSOSettingVC.swift in Sources */,
+				72799F2B2C9809DC00E9427F /* BSOBounceVC.swift in Sources */,
 				E9F5A4ED2C94136D007C601A /* BSOLockandKeySlot.swift in Sources */,
+				72799F2D2C9809F900E9427F /* SimpleBounceSlotGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
