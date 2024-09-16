@@ -2,7 +2,7 @@
 //  BSOMathsVC.swift
 //  BlueSlotOptimalcom
 //
-//  Created by krishnapal sss on 16/09/24.
+//  Created by SunTory on 2024/9/13.
 //
 
 import UIKit
