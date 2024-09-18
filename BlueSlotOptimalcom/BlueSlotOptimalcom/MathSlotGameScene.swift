@@ -2,7 +2,7 @@
 //  MathSlotGameScene.swift
 //  BlueSlotOptimalcom
 //
-//  Created by SunTory on 2024/9/13.
+//  Created by krishnapal sss on 16/09/24.
 //
 
 import Foundation

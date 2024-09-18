@@ -7,7 +7,7 @@
 import UIKit
 import SpriteKit
 
-class BSOBounceVC: UIViewController {
+class BounceVC: UIViewController {
     
     // Define the back button
     var backButton: UIButton!

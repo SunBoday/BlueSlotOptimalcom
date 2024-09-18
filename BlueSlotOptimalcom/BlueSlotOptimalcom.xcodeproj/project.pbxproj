@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0015D7EC2C9A8EEE0055DBA9 /* BloonGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0015D7EB2C9A8EEE0055DBA9 /* BloonGameVC.swift */; };
 		46FE68B32E2C2C1B57CABB4A /* Pods_BlueSlotOptimalcom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4771416331908F51B3505045 /* Pods_BlueSlotOptimalcom.framework */; };
 		72799F252C97ECA600E9427F /* BSOPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F242C97ECA600E9427F /* BSOPrivacyVC.swift */; };
 		72799F272C97F7CC00E9427F /* BSOMathsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F262C97F7CC00E9427F /* BSOMathsVC.swift */; };
 		72799F292C97F7F100E9427F /* MathSlotGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F282C97F7F100E9427F /* MathSlotGameScene.swift */; };
-		72799F2B2C9809DC00E9427F /* BSOBounceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F2A2C9809DC00E9427F /* BSOBounceVC.swift */; };
+		72799F2B2C9809DC00E9427F /* BounceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F2A2C9809DC00E9427F /* BounceVC.swift */; };
 		72799F2D2C9809F900E9427F /* SimpleBounceSlotGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72799F2C2C9809F900E9427F /* SimpleBounceSlotGameScene.swift */; };
-		E91BF6A52C981ADC00735F8E /* BSOBlueNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF69C2C981ADB00735F8E /* BSOBlueNetManager.m */; };
-		E91BF6A62C981ADC00735F8E /* BSOPrivacyWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF69E2C981ADB00735F8E /* BSOPrivacyWebVC.m */; };
-		E91BF6A72C981ADC00735F8E /* NSObject+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF6A02C981ADB00735F8E /* NSObject+Array.m */; };
-		E91BF6A82C981ADC00735F8E /* BSODBTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF6A12C981ADB00735F8E /* BSODBTypeManager.m */; };
-		E91BF6A92C981ADC00735F8E /* UIViewController+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BF6A42C981ADC00735F8E /* UIViewController+Array.m */; };
+		E9CE29B02C9AB78500FC5414 /* BSOBlueNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE29A92C9AB78400FC5414 /* BSOBlueNetManager.m */; };
+		E9CE29B12C9AB78500FC5414 /* NSObject+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE29AB2C9AB78500FC5414 /* NSObject+Array.m */; };
+		E9CE29B22C9AB78500FC5414 /* BSODBTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE29AD2C9AB78500FC5414 /* BSODBTypeManager.m */; };
+		E9CE29B32C9AB78500FC5414 /* UIViewController+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE29AE2C9AB78500FC5414 /* UIViewController+Array.m */; };
+		E9CE29B62C9AB79400FC5414 /* BSOPrivacyWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE29B42C9AB79400FC5414 /* BSOPrivacyWebVC.m */; };
 		E9F5A4BB2C941259007C601A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BA2C941259007C601A /* AppDelegate.swift */; };
 		E9F5A4BD2C941259007C601A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BC2C941259007C601A /* SceneDelegate.swift */; };
 		E9F5A4BF2C941259007C601A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5A4BE2C941259007C601A /* ViewController.swift */; };
@@ -57,24 +58,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0015D7EB2C9A8EEE0055DBA9 /* BloonGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloonGameVC.swift; sourceTree = "<group>"; };
 		1DB322061AE44FB30993CCDA /* Pods-BlueSlotOptimalcom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSlotOptimalcom.release.xcconfig"; path = "Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom.release.xcconfig"; sourceTree = "<group>"; };
 		4771416331908F51B3505045 /* Pods_BlueSlotOptimalcom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueSlotOptimalcom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72799F242C97ECA600E9427F /* BSOPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOPrivacyVC.swift; sourceTree = "<group>"; };
 		72799F262C97F7CC00E9427F /* BSOMathsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOMathsVC.swift; sourceTree = "<group>"; };
 		72799F282C97F7F100E9427F /* MathSlotGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSlotGameScene.swift; sourceTree = "<group>"; };
-		72799F2A2C9809DC00E9427F /* BSOBounceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSOBounceVC.swift; sourceTree = "<group>"; };
+		72799F2A2C9809DC00E9427F /* BounceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceVC.swift; sourceTree = "<group>"; };
 		72799F2C2C9809F900E9427F /* SimpleBounceSlotGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBounceSlotGameScene.swift; sourceTree = "<group>"; };
 		B0C08E67C974F42951B52689 /* Pods-BlueSlotOptimalcom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueSlotOptimalcom.debug.xcconfig"; path = "Target Support Files/Pods-BlueSlotOptimalcom/Pods-BlueSlotOptimalcom.debug.xcconfig"; sourceTree = "<group>"; };
-		E91BF69B2C981ADB00735F8E /* BSOBlueNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOBlueNetManager.h; sourceTree = "<group>"; };
-		E91BF69C2C981ADB00735F8E /* BSOBlueNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOBlueNetManager.m; sourceTree = "<group>"; };
-		E91BF69D2C981ADB00735F8E /* BSOPrivacyWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOPrivacyWebVC.h; sourceTree = "<group>"; };
-		E91BF69E2C981ADB00735F8E /* BSOPrivacyWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOPrivacyWebVC.m; sourceTree = "<group>"; };
-		E91BF69F2C981ADB00735F8E /* UIViewController+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Array.h"; sourceTree = "<group>"; };
-		E91BF6A02C981ADB00735F8E /* NSObject+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Array.m"; sourceTree = "<group>"; };
-		E91BF6A12C981ADB00735F8E /* BSODBTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODBTypeManager.m; sourceTree = "<group>"; };
-		E91BF6A22C981ADC00735F8E /* NSObject+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Array.h"; sourceTree = "<group>"; };
-		E91BF6A32C981ADC00735F8E /* BSODBTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODBTypeManager.h; sourceTree = "<group>"; };
-		E91BF6A42C981ADC00735F8E /* UIViewController+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Array.m"; sourceTree = "<group>"; };
+		E9CE29A82C9AB78400FC5414 /* BSOBlueNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOBlueNetManager.h; sourceTree = "<group>"; };
+		E9CE29A92C9AB78400FC5414 /* BSOBlueNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOBlueNetManager.m; sourceTree = "<group>"; };
+		E9CE29AA2C9AB78400FC5414 /* NSObject+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Array.h"; sourceTree = "<group>"; };
+		E9CE29AB2C9AB78500FC5414 /* NSObject+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Array.m"; sourceTree = "<group>"; };
+		E9CE29AC2C9AB78500FC5414 /* BSODBTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSODBTypeManager.h; sourceTree = "<group>"; };
+		E9CE29AD2C9AB78500FC5414 /* BSODBTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSODBTypeManager.m; sourceTree = "<group>"; };
+		E9CE29AE2C9AB78500FC5414 /* UIViewController+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Array.m"; sourceTree = "<group>"; };
+		E9CE29AF2C9AB78500FC5414 /* UIViewController+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Array.h"; sourceTree = "<group>"; };
+		E9CE29B42C9AB79400FC5414 /* BSOPrivacyWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOPrivacyWebVC.m; sourceTree = "<group>"; };
+		E9CE29B52C9AB79400FC5414 /* BSOPrivacyWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOPrivacyWebVC.h; sourceTree = "<group>"; };
 		E9F5A4B72C941259007C601A /* BlueSlotOptimalcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSlotOptimalcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F5A4BA2C941259007C601A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F5A4BC2C941259007C601A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,18 +187,19 @@
 				E9F5A4FC2C9417FE007C601A /* BSONavigationVC.swift */,
 				72799F262C97F7CC00E9427F /* BSOMathsVC.swift */,
 				72799F282C97F7F100E9427F /* MathSlotGameScene.swift */,
-				72799F2A2C9809DC00E9427F /* BSOBounceVC.swift */,
+				72799F2A2C9809DC00E9427F /* BounceVC.swift */,
 				72799F2C2C9809F900E9427F /* SimpleBounceSlotGameScene.swift */,
-				E91BF69B2C981ADB00735F8E /* BSOBlueNetManager.h */,
-				E91BF69C2C981ADB00735F8E /* BSOBlueNetManager.m */,
-				E91BF6A32C981ADC00735F8E /* BSODBTypeManager.h */,
-				E91BF6A12C981ADB00735F8E /* BSODBTypeManager.m */,
-				E91BF69D2C981ADB00735F8E /* BSOPrivacyWebVC.h */,
-				E91BF69E2C981ADB00735F8E /* BSOPrivacyWebVC.m */,
-				E91BF6A22C981ADC00735F8E /* NSObject+Array.h */,
-				E91BF6A02C981ADB00735F8E /* NSObject+Array.m */,
-				E91BF69F2C981ADB00735F8E /* UIViewController+Array.h */,
-				E91BF6A42C981ADC00735F8E /* UIViewController+Array.m */,
+				0015D7EB2C9A8EEE0055DBA9 /* BloonGameVC.swift */,
+				E9CE29B52C9AB79400FC5414 /* BSOPrivacyWebVC.h */,
+				E9CE29B42C9AB79400FC5414 /* BSOPrivacyWebVC.m */,
+				E9CE29A82C9AB78400FC5414 /* BSOBlueNetManager.h */,
+				E9CE29A92C9AB78400FC5414 /* BSOBlueNetManager.m */,
+				E9CE29AC2C9AB78500FC5414 /* BSODBTypeManager.h */,
+				E9CE29AD2C9AB78500FC5414 /* BSODBTypeManager.m */,
+				E9CE29AA2C9AB78400FC5414 /* NSObject+Array.h */,
+				E9CE29AB2C9AB78500FC5414 /* NSObject+Array.m */,
+				E9CE29AF2C9AB78500FC5414 /* UIViewController+Array.h */,
+				E9CE29AE2C9AB78500FC5414 /* UIViewController+Array.m */,
 				E9F5A4C02C941259007C601A /* Main.storyboard */,
 				E9F5A4C32C94125B007C601A /* Assets.xcassets */,
 				E9F5A4C52C94125B007C601A /* LaunchScreen.storyboard */,
@@ -400,26 +403,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E91BF6A62C981ADC00735F8E /* BSOPrivacyWebVC.m in Sources */,
 				E9F5A4F52C9413D9007C601A /* BSOFeedbackVC.swift in Sources */,
 				E9F5A4FD2C9417FE007C601A /* BSONavigationVC.swift in Sources */,
-				E91BF6A52C981ADC00735F8E /* BSOBlueNetManager.m in Sources */,
+				E9CE29B62C9AB79400FC5414 /* BSOPrivacyWebVC.m in Sources */,
 				72799F292C97F7F100E9427F /* MathSlotGameScene.swift in Sources */,
+				E9CE29B02C9AB78500FC5414 /* BSOBlueNetManager.m in Sources */,
 				E9F5A4EB2C941347007C601A /* BSOSlotGame.swift in Sources */,
 				E9F5A4BF2C941259007C601A /* ViewController.swift in Sources */,
 				E9F5A4F92C9415DA007C601A /* BSOExt.swift in Sources */,
 				72799F272C97F7CC00E9427F /* BSOMathsVC.swift in Sources */,
-				E91BF6A72C981ADC00735F8E /* NSObject+Array.m in Sources */,
-				E91BF6A82C981ADC00735F8E /* BSODBTypeManager.m in Sources */,
 				72799F252C97ECA600E9427F /* BSOPrivacyVC.swift in Sources */,
+				E9CE29B12C9AB78500FC5414 /* NSObject+Array.m in Sources */,
+				E9CE29B22C9AB78500FC5414 /* BSODBTypeManager.m in Sources */,
 				E9F5A4BB2C941259007C601A /* AppDelegate.swift in Sources */,
 				E9F5A4F32C9413C1007C601A /* BSOAboutVC.swift in Sources */,
-				E91BF6A92C981ADC00735F8E /* UIViewController+Array.m in Sources */,
 				E9F5A4BD2C941259007C601A /* SceneDelegate.swift in Sources */,
+				E9CE29B32C9AB78500FC5414 /* UIViewController+Array.m in Sources */,
+				0015D7EC2C9A8EEE0055DBA9 /* BloonGameVC.swift in Sources */,
 				E9F5A4EF2C941388007C601A /* BSOSplashVC.swift in Sources */,
 				E9F5A4F12C94139F007C601A /* BSOHomeVC.swift in Sources */,
 				E9F5A4F72C9413EF007C601A /* BSOSettingVC.swift in Sources */,
-				72799F2B2C9809DC00E9427F /* BSOBounceVC.swift in Sources */,
+				72799F2B2C9809DC00E9427F /* BounceVC.swift in Sources */,
 				E9F5A4ED2C94136D007C601A /* BSOLockandKeySlot.swift in Sources */,
 				72799F2D2C9809F900E9427F /* SimpleBounceSlotGameScene.swift in Sources */,
 			);
@@ -599,7 +603,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlueSlotOptimalcom/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BlueSlot Optimalcom";
@@ -639,7 +643,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlueSlotOptimalcom/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BlueSlot Optimalcom";
